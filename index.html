@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.trsortable.js"></script>
+</head>
+<body>
+
+<style>
+	td {background-color: #dcdcdc; padding: 3px 5px;}
+	.trs-ondrag {}
+	.trs-ondrag td {background-color: #8fbc8f;}
+	.trs-handler {background-color: #ff8c00; width: 10px; height: 10px; display: inline-block; cursor: move;}
+</style>
+
+<table id="records">
+	<thead>
+		<tr class="nodrop">
+			<td colspan="3">Rows and records</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Row 1</td>
+			<td>Record 1 <span class="trs-handler"></span></td>
+			<td>Record 1</td>
+		</tr>
+		<tr>
+			<td>Row 2</td>
+			<td>Record 2 <span class="trs-handler"></span></td>
+			<td>Record 2</td>
+		</tr>
+		<tr>
+			<td>Row 3</td>
+			<td>Record 3 <span class="trs-handler"></span></td>
+			<td>Recrod 3</td>
+		</tr>
+		<tr>
+			<td>Row 4</td>
+			<td>Record 4 <span class="trs-handler"></span></td>
+			<td>Record 4</td>
+		</tr>
+		<tr>
+			<td>Row 5</td>
+			<td>Record 5 <span class="trs-handler"></span></td>
+			<td>Record 5</td>
+		</tr>
+	</tbody>
+</table>
+
+<script type="text/javascript">
+	$('#records').trSortable({
+		dragHandler: '.trs-handler'
+	});
+</script>
+
+</body>
+</html>
