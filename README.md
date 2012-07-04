@@ -13,6 +13,6 @@ jQuery plugin for reordering rows within a table with drag and drop.
 
 Here is an example of simple usage of the plugin:
 
-[http://jsfiddle.net/dfsq/kpp9B/]
+[http://jsfiddle.net/dfsq/kpp9B/1/]
 
-[http://jsfiddle.net/dfsq/kpp9B/]: http://jsfiddle.net/dfsq/kpp9B/
+[http://jsfiddle.net/dfsq/kpp9B/1/]: http://jsfiddle.net/dfsq/kpp9B/1/
